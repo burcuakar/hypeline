@@ -1,0 +1,66 @@
+/* #SideBar {
+  background-color: #bfc7d4;
+  width: 300px;
+  display: flex;
+} */
+#SideBar {
+  background-color: #6366f1;
+  /* height: auto; */
+  width: 300px !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #000000;
+}
+
+#SideBar .Logo {
+  height: 50%;
+  width: 50%;
+  margin-top: 15vh;
+}
+
+#SideBar .content {
+  padding: 30px 10px;
+}
+
+#SideBar .content .menu_top {
+  margin-bottom: 100px;
+}
+
+#SideBar .content .menu_item {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 1rem;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+#SideBar .content .menu_item span {
+  margin-left: 10px;
+}
+
+#SideBar .content .menu_item .menu_option {
+  padding-left: 4px;
+}
+
+#SideBar .content .menu_item .option_logout {
+  margin-top: 0px;
+  padding-left: 4px;
+}
+
+#SideBar .content .menu_item:hover {
+  background-color: #797be2;
+  width: 100%;
+  height: 200%;
+  border-collapse: collapse;
+}
+
+#SideBar .content .menu_item img {
+  width: 50px;
+  height: 50px;
+}

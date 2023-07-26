@@ -1,0 +1,56 @@
+.login-blur {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.808);
+  width: 400px;
+  height: 300px;
+  filter: blur(40px);
+  opacity: 0.8;
+  z-index: 1;
+  border-radius: 100%;
+  margin-top: 3cm;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.about {
+  /* border: 5px solid; */
+  display: flex;
+  height: 720px;
+  align-items: center;
+  transform: translate(0, 7%);
+  flex-direction: column;
+  display: flex;
+  width: 800px;
+  box-shadow: rgb(255, 239, 10, 0.5) 3px 3px 100px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.about h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: #eedf10;
+  text-shadow: rgb(255, 239, 10, 0.5) 1px 5px 10px;
+
+  width: 70%;
+}
+
+.about p {
+  padding-top: 23px;
+  text-align: center;
+  justify-content: center;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 1px;
+
+  width: 75%;
+}

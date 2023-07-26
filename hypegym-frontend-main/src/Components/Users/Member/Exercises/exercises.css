@@ -1,0 +1,10 @@
+.exercises {
+  width: 100%;
+  display: flex;
+  margin: 0px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 20px 40px 10px 1px rgba(237, 231, 231, 0.47);
+  box-shadow: 15px 4px 10px 1px rgba(14, 14, 14, 0.244);
+}

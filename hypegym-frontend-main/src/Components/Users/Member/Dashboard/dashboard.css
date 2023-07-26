@@ -1,0 +1,27 @@
+#main_dashboard {
+  background-color: rgb(248, 247, 250);
+  background-image: none !important;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#main_dashboard .dashboard_graphs {
+  width: 100%;
+  background-color: rgb(248, 247, 250);
+  background-image: none !important;
+  display: flex !important;
+  flex-direction: column;
+}
+
+#main_dashboard .dashboard_graphs .widgets {
+  display: flex;
+  height: auto;
+  gap: 20px;
+}
+
+.third {
+  display: flex;
+  margin-left: 20px;
+}
